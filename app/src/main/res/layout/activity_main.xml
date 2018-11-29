@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tan_background"
+        android:orientation="vertical"
+        tools:context="com.bottlesecret.MainActivity">
+
+        <TextView
+            android:id="@+id/abc_news"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:background="@color/category_numbers"
+            android:text="@string/category_ABCNews" />
+
+        <TextView
+            android:id="@+id/the_washington_post"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:background="@color/category_family"
+            android:text="@string/category_TheWashingtonPost" />
+
+        <TextView
+            android:id="@+id/fox_news"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:background="@color/category_colors"
+            android:text="@string/category_FoxNews" />
+
+        <TextView
+            android:id="@+id/cbs_news"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:background="@color/category_phrases"
+            android:text="@string/category_CBSNews" />
+
+        <TextView
+            android:id="@+id/bbc_news"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:background="#170c3b"
+            android:text="@string/category_BBCNews" />
+
+        <TextView
+            android:id="@+id/cnn_news"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:background="#818081"
+            android:text="@string/category_CNNNews" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

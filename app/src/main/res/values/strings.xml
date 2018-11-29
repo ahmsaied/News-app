@@ -1,0 +1,19 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">News app</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_CBSNews">CBS News</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_FoxNews">Fox News</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_ABCNews">ABC News</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_TheWashingtonPost">The Washington Post</string>
+    <string name="category_BBCNews">BBC News</string>
+    <string name="category_CNNNews">CNN News</string>
+    <string name="title_activity_cnnnews">CNNNewsActivity</string>
+</resources>

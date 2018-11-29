@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "702457662367",
+    "firebase_url": "https://news-app-bb026.firebaseio.com",
+    "project_id": "news-app-bb026",
+    "storage_bucket": "news-app-bb026.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702457662367:android:1bd975c04e644049",
+        "android_client_info": {
+          "package_name": "com.bottlesecret.news.newsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702457662367-lv6he87idnoi17p5nb5g05at7b4je64c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb49tDWsa4vwNBIsjYfRW3hmdWK_qiwVs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
